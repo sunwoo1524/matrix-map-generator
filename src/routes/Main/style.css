@@ -1,0 +1,99 @@
+.main {
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.setting label {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.setting input {
+    border: solid black 1px;
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.generate_btn {
+    padding: 10px;
+    background-color: #139e7b;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.result {
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.editor {
+    display: flex;
+    margin-top: 30px;
+}
+
+.customize_cell {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customize_cell .color input[type="color"] {
+    width: 50px;
+    height: 50px;
+}
+
+.customize_cell .color {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.customize_cell .color label {
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.customize_cell .color button {
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.add_color {
+    font-size: 14px;
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.matrix {
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+}
+
+.cell {
+    width: 35px;
+    height: 35px;
+    margin: 1px;
+    border-radius: 5px;
+}
