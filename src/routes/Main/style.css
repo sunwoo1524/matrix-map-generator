@@ -17,11 +17,13 @@
 }
 
 .setting input {
-    border: solid black 1px;
+    /* border: solid black 1px; */
+    box-shadow: 0 0 5px gray;
     width: 150px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 .generate_btn {
